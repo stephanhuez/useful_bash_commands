@@ -1,0 +1,502 @@
+   59  python3
+   60  virtualenv --version
+   61  pip list
+   62  exit
+   63  pip --version
+   64  exit
+   65  pip list
+   66  python --version
+   67  virtualenv
+   68  pip install virtualenv
+   69  pip uninstall virtualenv
+   70  pip list
+   71  pip uninstall virtualenvwrapper
+   72  ll
+   73  pip list
+   74  pip uninstall setuptools
+   75  nosetests --version
+   76  brew uninstall python
+   77  python --version
+   78  python --version
+   79  pip --version
+   80  cd Projects/GitHub/
+   81  python get-pip.py 
+   82  sudo python get-pip.py 
+   83  pip
+   84  ll /Library/Python/2.7/site-packages/
+   85  sudo rm-rf /Library/Python/2.7/site-packages/pip*
+   86  sudo rm -rf /Library/Python/2.7/site-packages/pip*
+   87  ll /Library/Python/2.7/site-packages/
+   88  sudo python get-pip.py 
+   89  pip list
+   90  pip uninstall nosetests
+   91  pip uninstall nose
+   92  sudo pip uninstall nose
+   93  pip list
+   94  ll /Library/Python/2.7/site-packages/
+   95  pip uninstall scipy
+   96  sudo pip uninstall scipy
+   97  ll /Library/Python/2.7/site-packages/
+   98  sudo pip uninstall scikit_learn
+   99  ll /Library/Python/2.7/site-packages/
+  100  sudo pip uninstall IPython
+  101  pip list
+  102  ll /Library/Python/2.7/site-packages/
+  103  sudo pip uninstall pandas numpy tornado vboxapi
+  104  ll /Library/Python/2.7/site-packages/
+  105  sudo pip uninstall copper dateutil httplib2 oauth2 six
+  106  y
+  107  sudo pip uninstall coppe
+  108  sudo pip uninstall copper dateutil
+  109  ll /Library/Python/2.7/site-packages/
+  110  sudo pip uninsall tests
+  111  sudo pip uninstall tests
+  112  sudo pip uninstall easy-install
+  113  nose
+  114  python --version
+  115  pip --version
+  116  brew install python python3
+  117  python --version
+  118  python --version
+  119  python3 --version
+  120  pip list
+  121  pip install virtualenv virtualenvwrapper
+  122  pip list
+  123  pip3 list
+  124  virtualenvwrapper
+  125  cd Projects/
+  126  ll
+  127  cd GitHub/
+  128  cd python-project-template/
+  129  ll
+  130  nosetests
+  131  workon python-project-template
+  132  pip list
+  133  pip list --all
+  134  pip freeze
+  135  ll
+  136  nosetests
+  137  python --version
+  138  pip --version
+  139  git status
+  140  git add requirements.txt
+  141  git commit -m "Added the pip dependencies"
+  142  git status
+  143  git add README.md
+  144  git commit -m "Description of the project"
+  145  git status
+  146  git add tests/PROJECT_tests.py
+  147  git commit -m "Added a basic unit test"
+  148  git status
+  149  git push -u origin master
+  150  deactivate 
+  151  python --version
+  152  cd Projects/
+  153  ll
+  154  mkdir BitBucket
+  155  cd BitBucket/
+  156  git clone https://wiserhare@bitbucket.org/wiserharesprl/invoicehare.git
+  157  git list
+  158  git --help
+  159  git config
+  160  git config --local
+  161  git config --local --list
+  162  git config --list
+  163  ll
+  164  cd invoicehare/
+  165  git config --local --list
+  166  git config --list
+  167  git config user.name "stephan.huez@wiserhare.be"
+  168  git config --list
+  169  git config user.email "stephan.huez@wiserhare.be"
+  170  git config --list --local
+  171  git config user.name "Stephan Huez"
+  172  git status
+  173  git config --local
+  174  git config --local --list
+  175  git pull
+  176  git config user.email
+  177  git config --global user.email
+  178  clear
+  179  ll
+  180  cat .gitignore 
+  181  cat README.md 
+  182  git status
+  183  ll
+  184  clear
+  185  mkdir tests
+  186  mkdir invoice_hare
+  187  ll
+  188  touch invoice_hare/__init__.py
+  189  touch tests/__init__.py
+  190  ll
+  191  mkvirtualenv invoicehare
+  192  python --version
+  193  python3 --version
+  194  emacs /Users/stephan/.bash_profile 
+  195  deactivate 
+  196  rmvirtualenv invoicehare
+  197  exit
+  198  pip3 install virtualenvwrapper
+  199  exit
+  200  cd Projects/
+  201  cd GitHub/python-project-template/
+  202  ll
+  203  python --version
+  204  git status
+  205  ll PROJECT
+  206  clea
+  207  clear
+  208  ll
+  209  which python
+  210  which python3
+  211  clear
+  212  exit
+  213  cd Projects/
+  214  cd BitBucket/
+  215  ll
+  216  cd invoicehare/
+  217  mkvirtualenv invoicehare
+  218  python --version
+  219  pip --local
+  220  pip freeze --local
+  221  workon
+  222  pip install nose
+  223  pip install django
+  224  pip freeze --local
+  225  pip freeze --local > requirements.txt
+  226  cat requirements.txt 
+  227  git status
+  228  echo .idea/ >> .gitignore 
+  229  git status
+  230  cat .gitignore 
+  231  emacs .gitignore 
+  232  git status
+  233  git add .gitignore
+  234  git commit -m "Ignore idea directory"
+  235  git status
+  236  git add .
+  237  git commit -m "Initialised the module and test directories + Added dependency to Django"
+  238  git status
+  239  git push -u origin master
+  240  pip freeze
+  241  emacs requirements.txt 
+  242  clear
+  243  nose
+  244  nosetest
+  245  nosetests
+  246  pip install selenium
+  247  pip freeze > requirements.txt 
+  248  cat requirements.txt 
+  249  deactivate 
+  250  exit
+  251  docker ps
+  252  docker stop
+  253  docker stop wiserharewordpress_db_1 wiserharewordpress_wordpress_1 
+  254  exit
+  255  emacs .bash_profile 
+  256  mkdir -p /Users/stephan/Projects/Libraries/GeckoDriver
+  257  mv /Users/stephan/Downloads/geckodriver /Users/stephan/Projects/Libraries/GeckoDriver/
+  258  cat /Users/stephan/.bash_profile 
+  259  exit
+  260  exit
+  261  ll
+  262  superlists/manage.py runserver
+  263  exit
+  264  exit
+  265  workon TDDPython
+  266  superlists/manage.py runserver
+  267  deactivate 
+  268  exit
+  269  workon TDDPython
+  270  cd superlists/
+  271  python manage.py startapp lists
+  272  tree
+  273  clear
+  274  python manage.py test
+  275  git status
+  276  clear
+  277  git add lists/
+  278  git status
+  279  git diff --staged
+  280  clear
+  281  git commit -m "Add app for lists, with deliberately failing unit test"
+  282  git status
+  283  git diff --staged
+  284  python manage.py test
+  285  python manage.py test
+  286  clea; python manage.py test
+  287  clear; python manage.py test
+  288  clear; python manage.py test
+  289  clear; python manage.py test
+  290  clear; python manage.py test
+  291  clear; python manage.py test
+  292  clear; python manage.py test
+  293  git status
+  294  git diff
+  295  clear
+  296  git commit -am "First unit test and url mapping, dummy view"
+  297  git stati
+  298  git status
+  299  clear
+  300  clear
+  301  clear; python manage.py test
+  302  clear; python manage.py test
+  303  clear; python manage.py test
+  304  clear; python manage.py test
+  305  clear; python functional_tests.py 
+  306  clear; python functional_tests.py 
+  307  git diff
+  308  git add .
+  309  git status --staged
+  310  git status --cached
+  311  git 
+  312  git status --untracked-files
+  313  git status
+  314  git commit -m "Basic view now returns minimal HTML"
+  315  git log
+  316  git log --oneline
+  317  git hist
+  318  clear
+  319  clear; python functional_tests.py 
+  320  clear; python functional_tests.py 
+  321  git diff
+  322  git commit -am "Funtional tests now check we can add a to-do item"
+  323  git hist
+  324  git log --one-line
+  325  git log --oneline
+  326  clea;git log --oneline
+  327  clear;git log --oneline
+  328  clear; git log 
+  329  clear python manage.py test
+  330  clear; python manage.py test
+  331  pwd
+  332  ll
+  333  mkdir lists/templates
+  334  clear; python manage.py test
+  335  clear; python manage.py test
+  336  clear; python manage.py test
+  337  clear; python manage.py test
+  338  clear; python manage.py test
+  339  git status
+  340  git add .
+  341  git diff --staged
+  342  git commit -m "Refactor home page view to use a template"
+  343  git log --one-line
+  344  clear; python functional_tests.py 
+  345  clear; python functional_tests.py 
+  346  clear; python functional_tests.py 
+  347  clear; python functional_tests.py 
+  348  clear; python functional_tests.py 
+  349  clear; python functional_tests.py 
+  350  clear; python functional_tests.py 
+  351  clear; python functional_tests.py 
+  352  clear; python functional_tests.py 
+  353  clear; python functional_tests.py 
+  354  clear; python functional_tests.py 
+  355  clear; python functional_tests.py 
+  356  git diff
+  357  git add .
+  358  git commit -m "Front page HTML now generated from a template"
+  359  git hist
+  360  git log
+  361  git log --one-line
+  362  git log --oneline
+  363  git status
+  364  git diff
+  365  git add .
+  366  git commit -m "Added extra steps to functional tests"
+  367  git status
+  368  deactivate 
+  369  exit
+  370  workon TDDPython
+  371  ll
+  372  cd superlists/
+  373  ll
+  374  manage.py runserver
+  375  python manage.py runserver
+  376  deactivate 
+  377  exit
+  378  workon TDDPython
+  379  python functional_tests.py 
+  380  mv functional_tests.py superlists/
+  381  ll
+  382  git init
+  383  echo geckodriver.log > .gitignore
+  384  ll
+  385  ll superlists/
+  386  git status
+  387  echo "db.sqlite3" >> .gitignore 
+  388  git status
+  389  cd superlists/
+  390  git status
+  391  ll
+  392  cd ..
+  393  git add .
+  394  git status
+  395  nano .gitignore 
+  396  git status
+  397  git reset
+  398  git status
+  399  git add .
+  400  git status
+  401  echo "__pycache__/" >> .gitignore 
+  402  cat .gitignore 
+  403  git status
+  404  git add .
+  405  git status
+  406  git commit
+  407  git status
+  408  git log
+  409  git status
+  410  python superlists/functional_tests.py 
+  411  python superlists/functional_tests.py 
+  412  git status
+  413  git diff
+  414  clear
+  415  git add .
+  416  git commit -m "First FT specced out in comments, and now uses unittest"
+  417  git status
+  418  git log
+  419  git history
+  420  git hist
+  421  clear
+  422  ll
+  423  cd superlists/
+  424  cd ..
+  425  deactivate 
+  426  exit
+  427  cd Projects/
+  428  ll
+  429  cd TDDPython
+  430  mkdir TDDPython
+  431  cd TDDPython/
+  432  git init
+  433  mkvirtualenv TDDPython
+  434  atom .
+  435  pip install django selenium
+  436  python functional_tests.py 
+  437  pip freeze
+  438  export PATH=$PATH:$HOME/Projects/Libraries/Geckodriver
+  439  python functional_tests.py 
+  440  django-admin.py startproject superlists
+  441  ll
+  442  ll superlists/
+  443  tree superlists/
+  444  python superlists/manage.py runserver
+  445  tmux
+  446  deactivate 
+  447  tmux
+  448  cd "/Users/stephan/Tresors/Work tresor/040_Procurement/2016/BECI/Co-Solution Times 2017"; clear
+  449  cd "/Users/stephan/Tresors/Work tresor/040_Procurement/2016/BECI/Co-Solution Times 2017"; clear
+  450  cd "/Users/stephan/Tresors/Work tresor/040_Procurement/2016/BECI/Co-Solution Times 2017"; clear
+  451  brew update
+  452  brew upgrade
+  453  brew update
+  454  brew upgrade
+  455  brew search liba
+  456  brew update
+  457  brew update
+  458  brew upgrade 
+  459  clear
+  460  exit
+  461  cd Movies/
+  462  ll
+  463  mkdir Agents of Shield
+  464  ll
+  465  ls -lrt
+  466  rmdir Agents/ of/ Shield/
+  467  ll
+  468  mkdir "Agents of Shield"
+  469  ll
+  470  mv Marvel\'s\ Agents\ of\ S.H.I.E.L.D.\ S02/ Agents\ of\ Shield/
+  471  ll
+  472  cd Agents\ of\ Shield/
+  473  ll
+  474  ssh 10.211.55.17
+  475  ssh 10.211.55.17
+  476  brew install rcopy
+  477  cd ..
+  478  cd ..
+  479  cd Downloads/
+  480  ll
+  481  mkdir movies
+  482  cd movies/
+  483  rsync -rv stephan@10.211.55.17:/home/stephan/Downloads/* .
+  484  ll
+  485  ll
+  486  clear
+  487  whereis java
+  488  java --version
+  489  java -version
+  490  java -version
+  491  /usr/libexec/java_home -V
+  492  /usr/libexec/java_home -V
+  493  brew update
+  494  brew upgrade
+  495  java -version
+  496  javac -version
+  497  ll $JAVA_HOME 
+  498  cat /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/release 
+  499  odutil set log debug
+  500  ps -ef
+  501  ps -ef
+  502  ps -ef | grep 501
+  503  nmon
+  504  brew install nmon
+  505  man ps
+  506  ps  xao pid,ppid,pgid,sid,comm | head
+  507  ps  xao pid,ppid,pgid,sid,comm -ef | head
+  508  ps -ef  xao pid,ppid,pgid,sid,comm
+  509  ps  xao pid,ppid,pgid,sid,comm
+  510  ps -ef  xao pgid,sid,comm
+  511  ps  xao pid,pgid,sid,comm
+  512  ps  xao pgid,sid,comm
+  513  ps  xao gid,sid,comm
+  514  ps  xao egid,sid,comm
+  515  odutil set log default
+  516  odutil set log info
+  517  sudo launchctl stop com.apple.opendirectoryd
+  518  ps -ef opendi
+  519  ps  opendi
+  520  ps -ef | grep  opendi
+  521  kill -9 6365
+  522  sudo kill -9 6365
+  523  ps -ef | grep  opendi
+  524  cd Library/
+  525  cd Caches/
+  526  ll
+  527  ll
+  528  ll *open*
+  529  ll com.apple.*
+  530  open .
+  531  odutil set log default
+  532  odutil --help
+  533  odutil reset cache
+  534  odutil show configuration
+  535  odutil show requests
+  536  odutil show requests
+  537  odutil show nodes
+  538  odutil show nodes
+  539  clear
+  540  cd
+  541  cd Projects/GitHub/
+  542  ll
+  543  cd useful_bash_commands/
+  544  atom .
+  545  git status
+  546  git status
+  547  git status
+  548  find / -type d -print | awk'{print length($0), $0}’ | sort -n | tail -1
+;
+  549  find / -type d -print
+  550  find . -type d -print
+  551  find . -type d -print | awk'{print length($0), $0}’ | sort -n | tail -1
+  552  find . -type d -print | awk'{print length($0), $0}’ | sort-n | tail -1
+  553  find . -type d -print | awk'{print length($0), $0}’
+  554  find . -type d -print | awk '{print length($0), $0}’
+  555  find . -type d -print | awk '{print length($0), $0}’
+;
+  556  atom ~/.bash_history 
+  557  history
+  558  history > history.txt; atom history.txt;
