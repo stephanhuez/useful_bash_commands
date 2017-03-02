@@ -41,7 +41,7 @@ Find broken symlinks in the current directory and sub-directories
 
 ```Shell
 $ find -L . -type l
-$ find -L . -type l -exec ls -l {} \; 
+$ find -L . -type l -exec ls -l {} \;
 $ find . -type l ! -exec test -e {} \; -print
 ```
 
@@ -49,7 +49,11 @@ Remove broken symlinks in the current directory and sub-directories
 
 ```Shell
 $ find -L . -type l -delete
-$ find . -type l ! -exec test -e {} \; -delete 
+$ find . -type l ! -exec test -e {} \; -delete
 ```
 
+Recursively replace CRLF with LF
 
+```
+$  find source_folder/ -type f -print0 | xargs -0 dos2unix
+``
